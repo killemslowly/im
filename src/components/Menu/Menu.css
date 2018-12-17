@@ -1,0 +1,54 @@
+.lmenu {
+  position: absolute;
+  width: 224px;
+  max-height: 100%;
+  height: 100%;
+  float: left;
+  background: #404064;
+  display: block;
+  z-index: 1000;
+}
+
+.lmenubutton {
+  width: 224px;
+  height: 60px;
+  background: #535374;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
+  display: table-cell;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+}
+.lmenucontect {
+  width: 224px;
+  height: 100%;
+  background: #404064;
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.3);
+}
+
+.lmenubutton p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 14px;
+  color: #6879bb;
+}
+
+img {
+  margin: auto 18px auto 15px; /*верхнего, правого, нижнего и левого края.*/
+}
+
+.menuitem {
+  width: 224px;
+  height: 60px;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 14px;
+  color: #ffffff;
+}

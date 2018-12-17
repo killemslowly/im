@@ -1,0 +1,44 @@
+
+{
+  "folders": [
+    {
+      "name": "Корень проекта",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "eslint.options": {
+      "configFile": ".eslintrc.json"
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "todohighlight.isEnable": true,
+    "todohighlight.keywords": [
+      {
+        "text": "todo:",
+        "color": "red"
+      }
+    ],
+    "breadcrumbs.enabled": true,
+    "workbench.statusBar.feedback.visible": false,
+    "prettier.eslintIntegration": true,
+    "prettier.printWidth": 100,
+    "javascript.format.enable": false,
+    "editor.formatOnSave": true,
+    "editor.rulers": [100],
+    "workbench.activityBar.visible": true,
+    "editor.tabSize": 2,
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.settings.settingsSearchTocBehavior": "show",
+    "search.location": "panel",
+    "folder-indexing.exclude": [".git"],
+    "files.eol": "\n",
+    "workbench.editor.enablePreview": false,
+    "files.watcherExclude": {
+      "/**/.git/**": true,
+      "/**/node_modules/**": true
+    },
+    "git.enableSmartCommit": true,
+    "git.promptToSaveFilesBeforeCommit": true,
+    "git.showPushSuccessNotification": true
+  }
+}

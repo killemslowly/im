@@ -1,0 +1,81 @@
+.App-bg {
+  position: absolute;
+  width: 100%;
+  min-width: 500px;
+  height: 100%;
+  min-height: 600px;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(213.53deg, #6879bb 7.06%, #9300bb 95.23%);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.App-plashka {
+  margin: auto;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  min-width: 424px;
+  min-height: 424px;
+  width: 424px;
+  top: 112px;
+  background: #ffffff;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+}
+
+.App-login {
+  display: block;
+  margin: 40px auto 0px;
+  width: 328px;
+  height: 36px;
+  background: #ffffff;
+  border: 1px solid #d6dce9;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 14px;
+  color: #6879bb;
+}
+
+.App-pass {
+  display: block;
+  margin: 15px auto;
+  width: 328px;
+  height: 36px;
+  background: #ffffff;
+  border: 1px solid #d6dce9;
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: #6879bb;
+}
+
+.App-button {
+  display: block;
+  margin: 30px auto;
+  width: 328px;
+  height: 36px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #333333;
+  background: #ffce0c;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 12px;
+  text-align: center;
+}
+
+input:invalid {
+  border-color: red;
+}
